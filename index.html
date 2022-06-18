@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End Goodies</title>
+    <link rel="stylesheet" href="./resources/css/style.css">
+</head>
+
+<body>
+    <!-- top-fold of the page -->
+    <header>
+        <h1>Front End Goodies</h1>
+        <h3>A simple reference tool for front end developers.</h3>
+        <button>Get Started</button>
+    </header>
+    
+    <!-- Main Nav Menu - will be fixed to left side as user scrolls. -->
+        <nav class="content-nav">
+            <p>Overview</p>
+            <p>HTML</p>
+            <p>CSS</p>
+            <!-- Sub-of CSS -->
+            <p>Layout</p>
+        </nav>
+
+    <!-- The main documentation section -->
+    <main>
+        <section class="overview">
+            <h2>Overview</h2>
+            <p>This guide is a simple reference tool created to serve as a memory aid for learning and solidifying front-end development concepts. It will be continuously updated as time allows and hopefully grow to include discussions, observations, and learnings about other front-end development frameworks.</p>
+        </section>
+
+        <!-- HTML Section -->
+        <section class="html">
+            <h2>HTML</h2>
+            <p>HTML (Hypertext Markup Language) is the basic building block of any webpage.  It defines the content and structure of any webpage. Other languages that are typically used in front-end web development such as JavaScript and CSS (below) define the overall appearance, style, and interactivity of the page itself. 
+
+                The <span>hypertext</span> part of the language refers to links that connect web pages to one another. This can be either internal links or external links. 
+                
+                The <span>element</span> in HTML is what provides instruction for any given piece of content on the page. These elements are setoff from other pieces of text on the page via ‘tags’. </p>
+        </section>
+
+        <!-- CSS Main - Description Section -->
+        <section class="CSS">
+            <h2>CSS</h2>
+            <p>Cascading style sheets (CSS) is code that defines styles applied to a website. It is not considered to be a language or even markup. Rather it uses <span>Selectors</span> and <span>Declarations</span> to define the styles to be applied to HTML elements. Declarations are in turn comprised of a <span>property</span> and a property <span>value</span>. 
+
+                Things that can be styled are plenty. Examples include but are not limited to color, size, text size, font properties, shapes, and more. 
+                
+                Layouts can also be uniquely fine-tuned to cause the webpage to look and feel according to how you like. Columns can be created in addition to scrolling boxes, floating elements, and more.</p>
+        </section>
+
+        <!-- CSS Layout - Description Section -->
+        <section class="CSS-layout">
+            <h3>CSS - Layout</h3>
+            <p>CSS layout techniques allow us to take elements in a webpage and control their positioning relative to the following factors: it’s default position in a <span>normal layout</span>, other elements on the page, it’s parent container, and the overall viewport.
+
+                The primary method of controlling the layout of elements is by using the <span>display</span> property.
+            </p>
+            <p>The table below summarizes the most commonly used property values associated with the <span>display</span> property.</p>
+        </section>
+
+        <!-- display property values table -->
+        <h1>Common property values of the <span>display</span> property</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Property value</th>
+                    <th>What it does</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>inline</td>
+                    <td>Changes the display of the element to appear beside its neighboring elements, like words in a paragraph</td>
+                </tr>
+                <tr>
+                    <td>block</td>
+                    <td>Changes the display of the element to appear one below another. </td>
+                </tr>
+                <tr>
+                    <td>inline-block</td>
+                    <td>Changes the dispay of the element to appear inline as above but also maintains block-level customizability for things like height, width, margins, padding etc.</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
