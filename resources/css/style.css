@@ -39,6 +39,10 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
 
+a {
+    text-decoration: none;
+}
+
 body {
     margin: 0px;
 }
@@ -181,6 +185,20 @@ main p {
     line-height: 27px;
 }
 
+.links {
+    font-family: 'IBM Plex Sans Semibold';
+    font-size: 21px;
+    line-height: 27px;
+    color: #230AFF;
+}
+
+.codescript {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 21px;
+    line-height: 28px;
+    color: #FF0B0B;
+}
+
 .overview p {
     width: 1020px;
 
@@ -260,6 +278,7 @@ main p {
     font-family: 'IBM Plex Sans Bold', sans-serif;
     font-size: 26px;
     line-height: 33.8px;
+    margin-bottom: 25px;
 }
 
 .display-property-table span {
@@ -268,4 +287,44 @@ main p {
     line-height: 27.72px;
     color: #FF0B0B;
 
+}
+
+thead {
+    width: 870px;
+    text-align: left;
+}
+
+thead th {
+    font-family: 'IBM Plex Sans Bold';
+    font-size: 21px;
+    line-height: 27px;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.table-border {
+    /* height: 4px; */
+    color: red;
+    width: 870px;
+    height: 1px;
+    border-bottom: 1px solid rgba(61, 52, 39, .3);
+}
+
+tbody td {
+    width: 643px;
+    font-family: 'IBM Plex Sans Normal';
+    font-size: 21px;
+    line-height: 27px;
+    padding-bottom: 20px;
+}
+
+.first-column-header {
+    width: 26.09%;
+}
+
+.second-column-header {
+    width: 73.91%;
 }
