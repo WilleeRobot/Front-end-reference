@@ -18,25 +18,25 @@
     
     <!-- Main Nav Menu - will be fixed to left side as user scrolls. -->
         <nav class="content-nav">
-            <p>Overview</p>
-            <p>HTML</p>
-            <p>CSS</p>
+            <a href="#overview-link">Overview</a>
+            <a href="#html-link">HTML</a>
+            <a href="#CSS-link">CSS</a>
             <div class="nav-subsection">
                 <div class="submenu-divider"></div>
                 <!-- Sub-of CSS -->
-                <p class="submenu">Layout</p>
+                <a href="#layout-link" class="submenu">Layout</a>
             </div>
         </nav>
 
     <!-- The main documentation section -->
     <main>
-        <section class="overview">
+        <section class="overview" id="overview-link">
             <h2>Overview</h2>
             <p>This guide is a simple reference tool created to serve as a memory aid for learning and solidifying front-end development concepts. It will be continuously updated as time allows and hopefully grow to include discussions, observations, and learnings about other front-end development frameworks.</p>
         </section>
 
         <!-- HTML Section -->
-        <section class="html">
+        <section class="html" id="html-link">
             <h2>HTML</h2>
             <p>HTML (Hypertext Markup Language) is the basic building block of any webpage.  It defines the content and structure of any webpage. Other languages that are typically used in front-end web development such as JavaScript and CSS (below) define the overall appearance, style, and interactivity of the page itself. 
 
@@ -46,7 +46,7 @@
         </section>
 
         <!-- CSS Main - Description Section -->
-        <section class="CSS">
+        <section class="CSS" id="CSS-link">
             <h2>CSS</h2>
             <p>Cascading style sheets (CSS) is code that defines styles applied to a website. It is not considered to be a language or even markup. Rather it uses <span class="links"><a href="#">Selectors</a></span> and <span class="links"><a href="#">Declarations</a></span> to define the styles to be applied to HTML elements. Declarations are in turn comprised of a <span class="links"><a href="#">property</a></span> and a property <span class="links"><a href="#">value</a></span>. 
 
@@ -56,7 +56,7 @@
         </section>
 
         <!-- CSS Layout - Description Section -->
-        <section class="CSS-layout">
+        <section class="CSS-layout" id="layout-link">
             <h3>CSS - Layout</h3>
             <p>CSS layout techniques allow us to take elements in a webpage and control their positioning relative to the following factors: it’s default position in a <span class="links"><a href="#">normal layout</a></span>, other elements on the page, it’s parent container, and the overall viewport.
 
