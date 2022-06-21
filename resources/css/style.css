@@ -328,3 +328,22 @@ tbody td {
 .second-column-header {
     width: 73.91%;
 }
+
+.submenu-divider {
+    width: 3px;
+    height: 27px;
+
+    background: #3D3427;
+    opacity: 0.1;
+
+    display: inline-block;
+}
+
+.submenu {
+    /* position: relative;
+    left: 207px; */
+    display: inline-block;
+    margin-left: 17px;
+    line-height: 27px;
+    vertical-align: top;
+}
